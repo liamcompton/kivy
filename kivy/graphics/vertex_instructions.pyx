@@ -52,7 +52,8 @@ changed, which in this case can be achieved with:
 '''
 
 __all__ = ('Triangle', 'Quad', 'Rectangle', 'RoundedRectangle', 'BorderImage', 'Ellipse',
-           'Line', 'Point', 'Mesh', 'GraphicException', 'Bezier', 'SmoothLine')
+           'Line', 'Point', 'Mesh', 'GraphicException', 'Bezier', 'SmoothLine', 'SmoothRectangle',
+          'SmoothEllipse', 'SmoothRoundedRectangle', 'SmoothQuad', 'SmoothTriangle')
 
 
 include "../include/config.pxi"
